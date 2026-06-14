@@ -10,7 +10,7 @@ thumbs.addEventListener('click', (events) => {
     return;
   }
 
-  event.preventDefault();
+  events.preventDefault();
 
   largeImg.src = link.href;
   largeImg.alt = link.title;
